@@ -1,0 +1,24 @@
+# Thêm sub-project1 vào như một submodule
+git submodule add https://github.com/username/sub-project1.git sub-project1
+
+# Thêm sub-project2 vào như một submodule
+git submodule add https://github.com/username/sub-project2.git sub-project2
+
+# Commit và push các submodule
+git add .gitmodules sub-project1 sub-project2
+git commit -m "Add sub-project1 and sub-project2 as submodules"
+git push origin main
+
+#Update Specific Module
+cd sub-project1
+git pull origin main
+cd ..
+git add sub-project1
+git commit -m "Update sub-project1 to latest version"
+git push origin main
+
+#Update All Modules
+git submodule update --remote --merge
+git add .
+git commit -m "Update all submodules to latest versions"
+git push origin main
