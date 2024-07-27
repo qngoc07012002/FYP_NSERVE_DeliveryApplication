@@ -1,9 +1,3 @@
-[submodule "FYP_NSERVE_DeliveryApplication_Backend"]
-	path = FYP_NSERVE_DeliveryApplication_Backend
-	url = https://github.com/qngoc07012002/FYP_NSERVE_DeliveryApplication_Backend
-[submodule "FYP_NSERVE_DeliveryApplication_Mobile"]
-	path = FYP_NSERVE_DeliveryApplication_Mobile
-	url = https://github.com/qngoc07012002/FYP_NSERVE_DeliveryApplication_Mobile
 [submodule "Frontend"]
 	path = Frontend
 	url = https://github.com/qngoc07012002/FYP_NSERVE_DeliveryApplication_Frontend
